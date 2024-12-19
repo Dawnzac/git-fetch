@@ -50,9 +50,9 @@ def commit_and_push_changes(repo_path, commit_message):
 
 def main():
     
-    clone_or_pull_repo(WINGET_REPO_URL, LOCAL_WINGET_REPO_PATH)
+    #clone_or_pull_repo(WINGET_REPO_URL, LOCAL_WINGET_REPO_PATH)
   
-    clone_or_pull_repo(YOUR_REPO_URL, LOCAL_YOUR_REPO_PATH)
+    #clone_or_pull_repo(YOUR_REPO_URL, LOCAL_YOUR_REPO_PATH)
 
     fetch_latest_apps(APPS_TO_FETCH, LOCAL_WINGET_REPO_PATH, LOCAL_YOUR_REPO_PATH)
    
