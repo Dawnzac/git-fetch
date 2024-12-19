@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 WINGET_REPO_URL = "https://github.com/microsoft/winget-pkgs.git"
-LOCAL_WINGET_REPO_PATH = "./wingetclone"  
+LOCAL_WINGET_REPO_PATH = "./winget-pkgs"  
 YOUR_REPO_URL = "https://github.com/Dawnzac/git-fetch.git"
 LOCAL_YOUR_REPO_PATH = "./wingetclone" 
 APPS_TO_FETCH = ["Google.Chrome", "Mozilla.Firefox", "Microsoft.Edge"] 
